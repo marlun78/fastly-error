@@ -1,0 +1,12 @@
+{
+  "name": "fastly-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:client": "npm start -w packages/client"
+  },
+  "workspaces": [
+    "packages/client"
+  ],
+  "license": "MIT"
+}
